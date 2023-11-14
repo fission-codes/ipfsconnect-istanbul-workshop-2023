@@ -76,4 +76,4 @@ Run the app:
 npm run dev
 ```
 
-Now you should be able to open the control panel at [localhost:5173](http://localhost:5173)
+Now you should be able to open the control panel at [localhost:5178](http://localhost:5178)
