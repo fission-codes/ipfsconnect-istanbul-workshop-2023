@@ -4,6 +4,8 @@ Welcome to the workshop! 👋
 
 We are going to be getting up and running with [homestar](https://github.com/ipvm-wg/homestar), the [IPVM](https://github.com/ipvm-wg) reference impelementation. We'll be running workflows locally and seeing how homestar works across the p2p network.
 
+For full documentation on homestar, please see [https://docs.everywhere.computer/](https://docs.everywhere.computer/).
+
 ## Preparation
 
 ### Install dependencies
