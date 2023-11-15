@@ -4,7 +4,11 @@ Welcome to the workshop! 👋
 
 We are going to be getting up and running with [homestar](https://github.com/ipvm-wg/homestar), the [IPVM](https://github.com/ipvm-wg) reference impelementation. We'll be running workflows locally and seeing how homestar works across the p2p network.
 
+For full documentation on homestar, please see [https://docs.everywhere.computer/](https://docs.everywhere.computer/).
+
 ## Preparation
+
+### Install dependencies
 
 Please ensure you have the following tools installed and available: `git`, `node` and `kubo`:
 
@@ -12,9 +16,17 @@ Please ensure you have the following tools installed and available: `git`, `node
 - Install node (`v18.0.0` or newer): https://nodejs.org/en/download
 - Install kubo: https://docs.ipfs.tech/install/command-line/ (or desktop: https://docs.ipfs.tech/install/ipfs-desktop/)
 
-## Run kubo
+### Run kubo
 
 Make sure kubo is running! Either by launching IPFS Desktop, or running `ipfs daemon`.
+
+### Add web assembly functions
+
+All functions (along with inputs and receipts) are content addressed. We will refer to them by their CID. To add the functions to your local IPFS node, run:
+
+```sh
+ipfs add --cid-version 1 ./functions.wasm
+```
 
 ## Installing Homestar
 
