@@ -14,7 +14,7 @@ Please ensure you have the following tools installed and available: `git`, `node
 
 - Install git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - Install node (`v18.0.0` or newer): https://nodejs.org/en/download
-- Install kubo: https://docs.ipfs.tech/install/command-line/ (or desktop: https://docs.ipfs.tech/install/ipfs-desktop/)
+- Install kubo: https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions (or desktop: https://docs.ipfs.tech/install/ipfs-desktop/)
 
 ### Run kubo
 
