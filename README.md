@@ -73,7 +73,7 @@ npm install
 Run the app:
 
 ```sh
-npm run dev
+npm run start
 ```
 
-Now you should be able to open the control panel at [localhost:5178](http://localhost:5178)
+Now you should be able to open the control panel at [localhost:4173](http://localhost:4173)
