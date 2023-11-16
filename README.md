@@ -26,6 +26,7 @@ All functions (along with inputs and receipts) are content addressed. We will re
 
 ```sh
 ipfs add --cid-version 1 ./functions.wasm
+# or npx kubo@latest add --cid-version 1 ./functions.wasm
 ```
 
 ## Installing Homestar
