@@ -18,7 +18,7 @@ Please ensure you have the following tools installed and available: `git`, `node
 
 ### Run kubo
 
-Make sure kubo is running! Either by launching IPFS Desktop, or running `ipfs daemon`.
+Make sure kubo is running! Either by launching IPFS Desktop, running `ipfs daemon`, or `npx kubo@latest daemon`.
 
 ### Add web assembly functions
 
