@@ -67,25 +67,4 @@ homestar start -c ./settings.toml
 
 ## Running the control panel
 
-We can now run the control panel to see our node in action. To do this:
-
-Clone the control panel repo:
-
-```sh
-git clone https://github.com/fission-codes/everywhere-computer-control-panel.git
-```
-
-Install the dependencies:
-
-```sh
-cd everywhere-computer-control-panel
-npm install
-```
-
-Run the app:
-
-```sh
-npm run start
-```
-
-Now you should be able to open the control panel at [localhost:4173](http://localhost:4173)
+Visit https://control.everywhere.computer/. With your Homestar and IPFS node running locally, you can experiment with creating your own workflows and running them locally.
