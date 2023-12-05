@@ -10,10 +10,8 @@ For full documentation on homestar, please see [https://docs.everywhere.computer
 
 ### Install dependencies
 
-Please ensure you have the following tools installed and available: `git`, `node` and `kubo`:
+Please ensure you have `kubo`, the GoLang IPFS node installed:
 
-- Install git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-- Install node (`v18.0.0` or newer): https://nodejs.org/en/download
 - Install kubo: https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions (or desktop: https://docs.ipfs.tech/install/ipfs-desktop/)
 
 ### Run kubo
