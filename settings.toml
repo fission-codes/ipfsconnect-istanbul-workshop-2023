@@ -1,16 +1,21 @@
 [node]
 
-[node.network]
+[node.network.libp2p]
 listen_address = "/ip4/0.0.0.0/tcp/7001"
-metrics_port = 4020
-rpc_port = 3030
-webserver_port = 1337
-
-# Uncomment the following lines manually connect to other nodes. Try with your friends!
-# 
 # node_addresses = [
 #   "/ip4/<NODE-ONE-ADDRESS>/tcp/7001/p2p/<PEER-ID>",
 # ]
+#
+# Uncomment the lines above manually connect to other nodes. Try with your friends!
+
+[node.network.metrics]
+port = 4020
+
+[node.network.rpc]
+port = 3030
+
+[node.network.webserver]
+port = 1337
 
 [node.network.keypair_config]
 existing = { key_type = "secp256k1", path = "./secp256k1_key.der" }
