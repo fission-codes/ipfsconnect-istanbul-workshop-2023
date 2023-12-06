@@ -40,7 +40,7 @@ brew install fission-codes/fission/homestar
 
 ### Linux
 
-1. Go to [this page](https://github.com/ipvm-wg/homestar/actions/runs/6883723147) and scroll down to "Artifacts".
+1. Go to [this page](https://github.com/ipvm-wg/homestar/actions/runs/7117766904) and scroll down to "Artifacts".
 2. Download the `.zip` file for your platform - we recommend the `musl` build for linux
 3. Unzip the file and move the `homestar` binary to somewhere in your path (e.g. `/usr/local/bin`)
 4. Make sure the binary is executable (`chmod +x /usr/local/bin/homestar`)
