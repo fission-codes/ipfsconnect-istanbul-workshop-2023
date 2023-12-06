@@ -16,7 +16,7 @@ Please ensure you have `kubo`, the GoLang IPFS node installed:
 
 ### Run kubo
 
-Make sure kubo is running! Either by launching IPFS Desktop, or running `ipfs daemon`.
+Make sure kubo is running! Either by launching IPFS Desktop, running `ipfs daemon`, or `npx kubo@latest daemon`.
 
 ### Add web assembly functions
 
@@ -24,6 +24,7 @@ All functions (along with inputs and receipts) are content addressed. We will re
 
 ```sh
 ipfs add --cid-version 1 ./functions.wasm
+# or npx kubo@latest add --cid-version 1 ./functions.wasm
 ```
 
 ## Installing Homestar
