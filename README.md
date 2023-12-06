@@ -1,4 +1,4 @@
-# IPVM Homestar Workshop - Istanbul, 2023
+# IPVM self-guided workshop
 
 Welcome to the workshop! 👋
 
