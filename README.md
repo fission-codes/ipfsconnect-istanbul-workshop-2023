@@ -38,8 +38,9 @@ brew install fission-codes/fission/homestar
 4. Make sure the binary is executable (`chmod +x /usr/local/bin/homestar`)
 ### Windows  
 Using WSL2 is recommended for this workshop. If you're using Windows, please follow the Linux instructions above.  
-## Starting your homestar node  
-We'll want to generate a key for your homestar instance. This will be used to identify your node on the network. To do this, run:  
+
+## Booting up the Everywhere Computer✵
+One final thing: we'll want to generate a key for your homestar node. This will be used to identify your node on the Everywhere Computer✵ network. To do this, run:  
 ```
 openssl ecparam -genkey -name secp256k1 -outform DER -out secp256k1_key.der  
 ```
@@ -48,5 +49,8 @@ We can now start the node by running:
 ```
 homestar start -c ./settings.toml  
 ```
+
+It's alive!
+
 ## Running the control panel  
-Visit https://control.everywhere.computer/. With your `homestar` and IPFS nodes running locally, you can experiment with creating your own workflows and running them locally.
+Visit https://control.everywhere.computer/. With both your `homestar` and IPFS nodes running locally, you can experiment with creating your own workflows and running them locally.
