@@ -16,7 +16,7 @@ Just as the Everywhere Computer✵ is powered by homestar, IPFS is powered by ku
 ### 2. Run IPFS
 Make sure kubo is running! Either by launching IPFS Desktop, or running `ipfs daemon` in your terminal.  
 ### 3. Add some web assembly functions  
-Now that IPFS is running on your machine, we can add our initial web assembly functions to it. All functions on the Everywhere Computer✵ are [content addressed](https://fission.codes/blog/content-addressing-what-it-is-and-how-it-works/) on IPFS, which means they are identified and located using something call a CID (Content IDentifier).
+Now that IPFS is running on your machine, we can add our initial web assembly functions to it. All functions on the Everywhere Computer✵ are [content addressed](https://fission.codes/blog/content-addressing-what-it-is-and-how-it-works/) on IPFS, which means they are identified and located using something called a CID (Content IDentifier).
 
 To add the functions to your local IPFS node, run:
 ```
